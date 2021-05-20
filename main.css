@@ -130,14 +130,13 @@ a:link, a:visited, a:active {
   padding: 15px 0px;
   cursor: default;
 }
+.se-box a {color: var(--dutch-hex); font-weight: normal; transition: .3s ease-in-out;}
+.se-box a:hover {color: var(--mango-hex); font-weight: normal; transition: .3s ease-in-out;}
 #staff-tog, #cabin-tog, #challenges-tog, #leader-tog {
   cursor: pointer;
 }
 #leader-tog {
   border-bottom: 1px solid rgba(var(--dutch-rgb) / 20%);
-}
-#staff-tog:hover, #cabin-tog:hover, #challenges-tog:hover, #leader-tog:hover {
-  color: var(--mango-hex);
 }
 #s-discord {
   font-size: 1.5rem;
