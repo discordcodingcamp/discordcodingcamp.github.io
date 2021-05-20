@@ -1,1 +1,1 @@
-# discordcodingcamp.github.io
+# Coding Camp
