@@ -130,7 +130,7 @@ a:link, a:visited, a:active {
   padding: 15px 0px;
   cursor: default;
 }
-.se-box a {color: var(--dutch-hex); font-weight: normal; transition: .3s ease-in-out;}
+.se-box a:link, .se-box a:visited, .se-box a:active {color: var(--dutch-hex); font-weight: normal; transition: .3s ease-in-out;}
 .se-box a:hover {color: var(--mango-hex); font-weight: normal; transition: .3s ease-in-out;}
 #staff-tog, #cabin-tog, #challenges-tog, #leader-tog {
   cursor: pointer;
