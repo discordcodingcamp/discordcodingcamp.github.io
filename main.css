@@ -487,19 +487,6 @@ grid-row-gap: 0px;
   color: var(--tiger-hex);
   text-shadow: 1px 1px 10px var(--tiger-hex);
 }
-.cp-crown-o {
-      position: relative;
-    top: -300px;
-    left: 5vw;
-    font-size: 5vw;
-    color: gold;
-  opacity: 0;
-  transition: .3s ease-in-out;
-}
-.fox-cabin:hover .cp-crown-o {
-  opacity: 1;
-  transition: .3s ease-in-out;
-}
 .cabin-name {
   font-size: 4vw;
     font-weight: bold;
