@@ -318,7 +318,7 @@ a:link, a:visited, a:active {
 }
 
 .st-contain {
-  position: absolute;
+  position: relative;
   top: 0;
   z-index: 12;
   width: 100%;
@@ -349,7 +349,7 @@ a:link, a:visited, a:active {
   width: 100%;
 display: grid;
 grid-template-columns: 1fr 60%;
-grid-template-rows: 96px 1fr;
+grid-template-rows: 130px 1fr;
 grid-column-gap: 10px;
 grid-row-gap: 0px;
 }
